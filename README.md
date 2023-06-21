@@ -1,5 +1,5 @@
 # pyppe
-Python code computing the probability of planet-planet eclipses (PPE)
+Python code computing the probability of planet-planet eclipses (PPE).
 
 ### Description
 This code computes the probability of planet-planet eclipses from a population of objects defined in a CSV file.
@@ -13,3 +13,6 @@ To run the code, one must first modify the parameter file **PARAMS.txt** accordi
 *Note that the typical computation time for a single planet pair is of several minutes.*
 
 To create graphs showing the probability of PPE events as a function of time, type `python3 createGraphs.py <inputDir> <outputDir>` in a terminal window.
+
+### Acknowledgements
+This code has been developed by *[Maxime Marchand](mailto:Maxime.Marchand@etu.unige.ch)* as part of a Master project at the Department of Astrononmy of the University of Geneva.
