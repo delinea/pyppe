@@ -1,0 +1,16 @@
+# Parameters file
+# Only boolean in the format True / TRUE / False / FALSE will be accepted
+
+LOGFILE_NAME  =                                    # Path to the log file
+DATAFILE_NAME = template_selection_2022.11.30.csv  # Path to the data file
+OUTPUT_DIR    = output/                            # Path to the output directory
+NUM_SAMPLES   = 10000                              # Number of samples for Monte Carlo simulation
+T_START       = 2023-01-01                         # Starting time of the observation (YYYY-MM-DD)
+T_END         = 2026-01-01                         # Ending time of the observation (YYYY-MM-DD)
+ECC_MAX       = 0.20                               # Maximal eccentricity allowed to keep a planet
+SELECTION     = LAMBDA_ALL                         # Selected planets (LAMBDA_ALL, LAMBDA_NOTALL, LAMBDA_NONE)
+NUM_CPU       = 1                                  # Number of CPUs to use
+SAVE_IN_FILE  = TRUE                               # Save in file (TRUE, FALSE)
+OVERWRITE     = FALSE                              # Overwrite existing files (TRUE, FALSE)
+VERBOSE       = TRUE                               # Display printings when computing transit probability
+
