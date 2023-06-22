@@ -15,4 +15,4 @@ To run the code, one must first modify the parameter file **PARAMS.txt** accordi
 To create graphs showing the probability of PPE events as a function of time, type `python3 createGraphs.py <inputDir> <outputDir>` in a terminal window.
 
 ### Acknowledgements
-This code has been developed by *[Maxime Marchand](mailto:Maxime.Marchand@etu.unige.ch)* as part of a Master project at the Department of Astrononmy of the University of Geneva.
+This code has been developed by *[Maxime Marchand](mailto:Maxime.Marchand@etu.unige.ch)* as part of a Master project at the [Department of Astrononmy of the University of Geneva](https://www.unige.ch/sciences/astro/en).
