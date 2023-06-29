@@ -402,7 +402,7 @@ if __name__ == '__main__':
 
     ofNames = np.array([_[7] for _ in arguments])
 
-    if len(ofNames) != np.unique(len(ofNames)):
+    if len(ofNames) != len(np.unique(ofNames)):
         raise RuntimeError("There might be some duplicates in the file names.")
 
     # No parallelisation
