@@ -13,7 +13,7 @@ The code requires the following packages: `pickle`, `numpy`, `astropy`, `pandas`
 ---
 ### How to run pyppe
 To run the code, one must first modify the parameter file **PARAMS.txt** accordingly, and then type `python3 main.py PARAMS.txt` in a terminal window.  
-The `SELECTION` parameter is to be selected between 3 options:
+The `SELECTION` parameter can be set to one of the three following options:
 - `LAMBDA_ALL`: the code will only consider planet-planet pairs for which both projected obliquities ($\lambda$) are known.
 - `LAMBDA_NOTALL`: the code will consider planet-planet pairs for which one of two projected obliquities is known.
 - `LAMBDA_NONE`: the code will only consider planet-planet pairs with both projected obliquities unknown.
